@@ -1,0 +1,29 @@
+{
+  "name": "@buzuli/json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/json.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "pretest": "npm run lint",
+    "test": "tap test"
+  },
+  "keywords": [
+    "JSON",
+    "stringify",
+    "pretty",
+    "color",
+    "format",
+    "formatting"
+  ],
+  "author": "Joel Edwards <joeledwards@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@buzuli/color": "^1.2.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tap": "^11.1.2"
+  }
+}
