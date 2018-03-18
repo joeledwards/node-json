@@ -23,9 +23,11 @@ const obj = {
   ],
   C: [],
   D: {},
-  "\"E\"": "\"quoted\"",
+  "\"E\"": '"quoted"',
   "\\F\\": "\\escaped\\",
   "\\G\\": "\nnewlines\n",
+  "\\H\\": '"',
+  "\\I\\": '',
 }
 
 console.log(json(obj))
