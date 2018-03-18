@@ -21,7 +21,9 @@ const obj = {
       h: undefined
     }
   ],
-  "\"C\"": "\"sea\""
+  "\"C\"": "\"sea\"",
+  D: [],
+  E: {}
 }
 
 console.log(json(obj))
