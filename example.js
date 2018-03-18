@@ -21,9 +21,10 @@ const obj = {
       h: undefined
     }
   ],
-  "\"C\"": "\"sea\"",
-  D: [],
-  E: {}
+  C: [],
+  D: {},
+  "\"E\"": "\"quoted\"",
+  "\\F\\": "\\escaped\\",
 }
 
 console.log(json(obj))
