@@ -25,6 +25,7 @@ const obj = {
   D: {},
   "\"E\"": "\"quoted\"",
   "\\F\\": "\\escaped\\",
+  "\\G\\": "\nnewlines\n",
 }
 
 console.log(json(obj))
