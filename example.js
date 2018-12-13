@@ -28,6 +28,7 @@ const obj = {
   "\\G\\": "\nnewlines\n",
   "\\H\\": '"',
   "\\I\\": '',
+  'some-thing': 'hyphenated'
 }
 
 console.log(json(obj))

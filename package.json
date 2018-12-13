@@ -20,7 +20,7 @@
   "author": "Joel Edwards <joeledwards@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@buzuli/color": "^1.2.0"
+    "@buzuli/color": "^2.0.0"
   },
   "devDependencies": {
     "standard": "^11.0.1",
