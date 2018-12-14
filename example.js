@@ -23,11 +23,11 @@ const obj = {
   ],
   C: [],
   D: {},
-  "\"E\"": '"quoted"',
-  "\\F\\": "\\escaped\\",
-  "\\G\\": "\nnewlines\n",
-  "\\H\\": '"',
-  "\\I\\": '',
+  '"E"': '"quoted"',
+  '\\F\\': '\\escaped\\',
+  '\\G\\': '\nnewlines\n',
+  '\\H\\': '"',
+  '\\I\\': '',
   'some-thing': 'hyphenated'
 }
 

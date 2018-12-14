@@ -1,7 +1,7 @@
 const tap = require('tap')
 const json = require('../lib/json')
 
-tap.test('', t => {
+tap.test('Should format an object', async assert => {
   const obj = {
     A: [
       {
@@ -25,7 +25,9 @@ tap.test('', t => {
     ]
   }
 
-  t.ok(typeof json(obj) === 'string')
+  assert.ok(typeof json(obj) === 'string')
+})
 
-  t.done()
+tap.test('Should parse a string then format', async assert => {
+  assert.ok(typeof json('{}') === 'string')
 })
