@@ -23,7 +23,7 @@
     "@buzuli/color": "^2.0.0"
   },
   "devDependencies": {
-    "standard": "^12.0.1",
-    "tap": "^12.1.1"
+    "standard": "^13.1.0",
+    "tap": "^14.6.1"
   }
 }
