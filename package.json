@@ -3,6 +3,9 @@
   "version": "2.0.2",
   "description": "",
   "main": "lib/json.js",
+  "bin": {
+    "json": "bin/json.js"
+  },
   "scripts": {
     "lint": "standard",
     "lint:fix": "standard --fix",
