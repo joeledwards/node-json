@@ -23,10 +23,11 @@
   "author": "Joel Edwards <joeledwards@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@buzuli/color": "^2.2.2"
+    "@buzuli/color": "^2.3.1",
+    "yargs": "^17.5.1"
   },
   "devDependencies": {
-    "standard": "^13.1.0",
-    "tap": "^14.6.1"
+    "standard": "^17.0.0",
+    "tap": "^16.3.0"
   }
 }
